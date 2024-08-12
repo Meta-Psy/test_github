@@ -1,0 +1,7 @@
+zakaz = float(input('Введите сумму вашего заказа в $: '))
+chayeviye = round(zakaz * 0.18, 2)
+nalog = round(zakaz * 0.13, 2)
+itogo = round(zakaz + chayeviye + nalog, 2)
+print(f'Налог: {nalog} $')
+print(f'Чаевые: {chayeviye} $')
+print(f'ИТОГО: {itogo} $')
